@@ -77,5 +77,34 @@ function renderTodos(filter = "") {
   todoCount.textContent = todos.length;
 }
 
-// أول مرة تحميل
+
 renderTodos();
+
+class Transaction {
+  constructor(amount, date) {
+    this.amount = amount;
+    this.date = date;
+  }
+
+  getAmount() {
+    return this.amount;
+  }
+
+  getDate() {
+    return this.date;
+  }
+}
+class Transaction {
+  constructor(amount, date) {
+    this.amount = amount;
+    this.date = date;
+  }
+
+  getAmount() {
+    return this.amount;
+  }
+
+  getDate() {
+    return this.date;
+  }
+}
